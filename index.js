@@ -5109,7 +5109,7 @@ app.get('/api/get_data', (req, res) => {
   })
 })
 
-const port = process.env.PORT || 3456;
+const port = process.env.PORT || 80;
 
 async function bootstrap() {
   await initDB();
